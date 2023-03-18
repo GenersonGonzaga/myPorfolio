@@ -1,0 +1,82 @@
+.bgimage {
+    height: 100vh;
+    background: url('blue.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+
+.gen_title {
+    font-size: 4.5rem;
+    font-family: homoarakhn;
+}
+
+.gen_desc {
+    font-size: 2rem;
+}
+
+.gen-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #ec081b;
+}
+
+.servicesText:hover {
+    border: 1px solid #ec081b;
+}
+
+.navbarScroll.navbarDark {
+    background-color: rgb(7, 4, 4);
+}
+
+#pic5 {
+    border-radius: 50%;
+}
+
+
+#embedmap-canvas img {
+    max-width: none !important;
+    background: none !important;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.navbar-brand {
+    font-family: homoarakhn;
+}
+
+.intro {
+    margin: auto;
+    background-color:blue;
+    padding: 50px;
+    border-style: solid;
+    border-color: red;
+    font-family: homoarakhn;
+}
+
